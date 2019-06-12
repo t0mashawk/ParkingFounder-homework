@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="2" x="328" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Panel" id="3" x="21" y="101" width="410" height="657" border="none"/>
+      </widgetChanges>
+      <widgets ref="7">
+        <attributes key="foreground" value="#46eeea"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="349" y="712" measuredWidth="410" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5(1)/Navigation.screen#Bottom%20Toolbar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="5">
+        <object xsi:type="model:Icon" id="22" x="131" y="8" layoutParams="anchor-right|anchor-middle" icon="assets/ic-my-location (large)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="57"/>
+      <widgets ref="53" width="410">
+        <attributes key="background" value="#46eeea"/>
+      </widgets>
+      <widgets ref="55" x="35" y="8">
+        <attributes key="foreground" value="#fff"/>
+        <attributes key="icon" value="assets/ic-person (large)"/>
+      </widgets>
+      <widgets ref="56" x="235" y="8">
+        <attributes key="foreground" value="#fff"/>
+        <attributes key="icon" value="assets/ic-add-location (large)"/>
+      </widgets>
+      <widgets ref="58" x="331" y="8">
+        <attributes key="foreground" value="#fff"/>
+        <attributes key="icon" value="options (large)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Map" id="5" x="349" y="101" width="410" height="612" measuredWidth="410" measuredHeight="612"/>
+  <widgets xsi:type="model:Icon" id="12" x="624" y="216" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#f90" icon="location (large)"/>
+  <widgets xsi:type="model:Icon" id="14" x="672" y="607" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#0f0" icon="location (large)"/>
+  <widgets xsi:type="model:Icon" id="15" x="528" y="400" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#f90" icon="location (large)"/>
+  <widgets xsi:type="model:Icon" id="16" x="480" y="369" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#0f0" icon="location (large)"/>
+  <widgets xsi:type="model:Icon" id="17" x="464" y="576" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#f00" icon="location (large)"/>
+  <widgets xsi:type="model:Icon" id="18" x="495" y="584" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#0f0" icon="location (large)"/>
+  <widgets xsi:type="model:Icon" id="23" x="592" y="488" width="41" height="41" measuredWidth="41" measuredHeight="41" layoutParams="anchor-right|anchor-middle" foreground="#00f" icon="assets/ic-navigation (large)"/>
+  <widgets xsi:type="model:Icon" id="24" x="520" y="584" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="25" x="540" y="600" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="26" x="696" y="615" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="27" x="472" y="400" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="28" x="497" y="400" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="29" x="624" y="185" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" icon="assets/ic-local-parking (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="15" x="255" y="-146" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Panel" id="16" x="21" y="101" width="410" height="657" border="none"/>
+      </widgetChanges>
+      <widgets ref="7">
+        <attributes key="foreground" value="#46eeea"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="276" y="564" measuredWidth="410" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5(1)/Navigation.screen#Bottom%20Toolbar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="5">
+        <object xsi:type="model:Icon" id="14" x="131" y="8" layoutParams="anchor-right|anchor-middle" foreground="#fff" icon="assets/ic-my-location (large)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="57"/>
+      <widgets ref="53" width="410">
+        <attributes key="background" value="#46eeea"/>
+      </widgets>
+      <widgets ref="55" x="35" y="8">
+        <attributes key="foreground" value="#fff"/>
+        <attributes key="icon" value="assets/ic-person (large)"/>
+      </widgets>
+      <widgets ref="56" x="235" y="8">
+        <attributes key="icon" value="assets/ic-add-location (large)"/>
+      </widgets>
+      <widgets ref="58" x="331" y="8">
+        <attributes key="foreground" value="#fff"/>
+        <attributes key="icon" value="options (large)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Map" id="17" x="276" y="-45" width="410" height="612" measuredWidth="410" measuredHeight="612"/>
+  <widgets xsi:type="model:Icon" id="18" x="467" y="254" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="28" x="407" y="223" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="29" x="447" y="254" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="30" x="447" y="223" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="31" x="427" y="223" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="32" x="427" y="254" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="33" x="407" y="254" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="34" x="552" y="96" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="35" x="552" y="72" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="36" x="552" y="48" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="37" x="467" y="455" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="38" x="447" y="448" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="39" x="427" y="440" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="40" x="386" y="424" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="41" x="407" y="432" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="42" x="576" y="448" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="43" x="619" y="463" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="44" x="600" y="455" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="45" x="638" y="471" measuredWidth="32" measuredHeight="32" layoutParams="anchor-center|anchor-middle" foreground="#46eeea" icon="assets/ic-local-parking (large)"/>
+  <widgets xsi:type="model:Icon" id="46" x="520" y="336" width="41" height="41" measuredWidth="41" measuredHeight="41" layoutParams="anchor-right|anchor-middle" foreground="#00f" icon="assets/ic-navigation (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
